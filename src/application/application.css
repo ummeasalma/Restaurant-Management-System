@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property *
+ */
+ 
+ .root
+{
+    -fx-background-color: #c9e6ec  ;
+    -fx-font : "calibri";
+}
+
+.button{
+	
+	-fx-font : 18px "calibri";  
+    -fx-padding : 12;
+    -fx-text-fill:  #ffffff ;
+    -fx-background-color :   #37ad95;  
+}

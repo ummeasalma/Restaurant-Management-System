@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewEmployeeController">
+   <children>
+      <TextField fx:id="txtFirstname" layoutX="342.0" layoutY="154.0" prefHeight="31.0" prefWidth="202.0" promptText="First Name  ">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtLastname" layoutX="342.0" layoutY="193.0" prefHeight="31.0" prefWidth="202.0" promptText="Last Name ">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtUsername" layoutX="342.0" layoutY="232.0" prefHeight="31.0" prefWidth="202.0" promptText="Username ">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </TextField>
+      <Text layoutX="342.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Employee">
+         <font>
+            <Font name="Inconsolata" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtType" layoutX="342.0" layoutY="274.0" prefHeight="31.0" prefWidth="202.0" promptText="Employee Type">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </TextField>
+      <Button layoutX="342.0" layoutY="350.0" mnemonicParsing="false" onAction="#addEmployee" text="Submit">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblNewEmployeeStatus" layoutX="342.0" layoutY="401.0" prefHeight="19.0" prefWidth="445.0" text="Label" textFill="#b2aaaa" visible="false">
+         <font>
+            <Font name="Inconsolata" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="444.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancelEmployee" prefHeight="29.0" prefWidth="73.0" text="Cancel">
+         <font>
+            <Font name="Inconsolata" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
